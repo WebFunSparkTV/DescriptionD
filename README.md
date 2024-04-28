@@ -6,7 +6,6 @@ async def on_message(message):
     if message.author.id == "Replace the user id here":
         if "Uptime" in message.content:
             await message.channel.send("True")
-    
     await bot.process_commands(message)
 
 for botghost
